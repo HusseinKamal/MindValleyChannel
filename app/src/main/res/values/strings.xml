@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MindValleyChannel</string>
+    <string name="channels">Channels</string>
+    <string name="browse_my_category">Browse by categories</string>
+    <string name="episodes">episodes</string>
+    <string name="series">series</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="new_episodes">New Episodes</string>
+</resources>

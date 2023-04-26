@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="160dp"
+    android:layout_height="60dp"
+    android:id="@+id/cardItem"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/gradient_rounded_background">
+    <com.hussein.mindvalleychannel.views.CustomRobotoBoldTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvCategoryName"
+        android:lines="2"
+        android:ellipsize="end"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="@string/browse_my_category"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+</LinearLayout>
+</layout>
