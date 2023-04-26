@@ -18,9 +18,6 @@ class UiTestinMainActivity {
     val activityScenarioRule = ActivityScenarioRule(
         MainActivity::class.java
     )
-
-    // test to check if the preferred language
-    // of user is displayed under the chosen language or not
     @Test
     fun testShowHomeRecyclerView() {
         onView(withId(R.id.rvChannels)).check(matches(isDisplayed()))
