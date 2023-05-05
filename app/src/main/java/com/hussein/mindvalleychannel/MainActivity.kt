@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity(),SwipeRefreshLayout.OnRefreshListener {
             binding.progress.visibility = View.VISIBLE
             homeViewModel.getHome().observe(this) { home ->
                 if (home.isNotEmpty()) {
-                    //applicationContext is better to use to avoid memory leak ad this maybe end but applicationContext is still alive
+                    //applicationContext is better to use to avoid memory leak ad this maybe end but applicationContext is still alive and retain its reference
                     binding.rvChannels.adapter = HomeAdpater(applicationContext, home)
                     showView()
                 } else {
